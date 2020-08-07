@@ -1,0 +1,13 @@
+CREATE MIGRATION
+dotnet ef migrations add Initial
+dotnet ef migrations add Customer
+
+REMOVE MIGRATION
+dotnet ef migrations remove
+
+
+RUN MIGRATION
+dotnet ef database update
+
+DROP database
+dotnet ef database drop

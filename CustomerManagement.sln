@@ -2,6 +2,16 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.API", "CustomerManagement.API\CustomerManagement.API.csproj", "{213E2C25-4EEA-412C-98EA-5825CB14643E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Entities", "CustomerManagement.Entities\CustomerManagement.Entities.csproj", "{60063564-27F3-497E-8991-9058277C34A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Data", "CustomerManagement.Data\CustomerManagement.Data.csproj", "{BD828F4E-4854-482C-AD6B-5D463C0DA6CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Data.MsSqlDbContext", "CustomerManagement.Data.MsSqlDbContext\CustomerManagement.Data.MsSqlDbContext.csproj", "{4F181E87-1821-450C-B1F7-F85E89F932E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.Data.PostgreSqlDbContext", "CustomerManagement.Data.PostgreSqlDbContext\CustomerManagement.Data.PostgreSqlDbContext.csproj", "{98EDF98C-4B71-4F96-973C-A1C44E6C6C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerManagement.IntegrationTest", "CustomerManagement.IntegrationTest\CustomerManagement.IntegrationTest.csproj", "{A439F006-5824-412D-B924-BE9E1C932EB2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +22,25 @@ Global
 		{213E2C25-4EEA-412C-98EA-5825CB14643E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{213E2C25-4EEA-412C-98EA-5825CB14643E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{213E2C25-4EEA-412C-98EA-5825CB14643E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60063564-27F3-497E-8991-9058277C34A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60063564-27F3-497E-8991-9058277C34A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60063564-27F3-497E-8991-9058277C34A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60063564-27F3-497E-8991-9058277C34A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD828F4E-4854-482C-AD6B-5D463C0DA6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD828F4E-4854-482C-AD6B-5D463C0DA6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD828F4E-4854-482C-AD6B-5D463C0DA6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD828F4E-4854-482C-AD6B-5D463C0DA6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F181E87-1821-450C-B1F7-F85E89F932E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F181E87-1821-450C-B1F7-F85E89F932E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F181E87-1821-450C-B1F7-F85E89F932E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F181E87-1821-450C-B1F7-F85E89F932E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98EDF98C-4B71-4F96-973C-A1C44E6C6C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98EDF98C-4B71-4F96-973C-A1C44E6C6C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98EDF98C-4B71-4F96-973C-A1C44E6C6C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98EDF98C-4B71-4F96-973C-A1C44E6C6C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A439F006-5824-412D-B924-BE9E1C932EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A439F006-5824-412D-B924-BE9E1C932EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A439F006-5824-412D-B924-BE9E1C932EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A439F006-5824-412D-B924-BE9E1C932EB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

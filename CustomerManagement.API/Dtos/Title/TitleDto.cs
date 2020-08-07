@@ -1,4 +1,13 @@
-$HEADER$namespace $NAMESPACE$
+using CustomerManagement.API.Dtos.Interfaces;
+
+namespace CustomerManagement.API.Dtos.Title
 {
-  public class $CLASS$ {$END$}
+    public class TitleDto:IDto
+    {
+        public long Id { get; set; }
+        
+        public string Value { get; set; }
+        
+        public string Description { get; set; }
+    }
 }

@@ -1,4 +1,4 @@
-namespace CustomerManagement.API.Dtos
+namespace CustomerManagement.API.Dtos.Interfaces
 {
     public interface IDto
     {

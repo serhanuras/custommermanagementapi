@@ -1,4 +1,7 @@
-$HEADER$namespace $NAMESPACE$
+namespace CustomerManagement.API.Dtos.Interfaces
 {
-  public class $CLASS$ {$END$}
+    public interface IFilterDto
+    {
+        
+    }
 }

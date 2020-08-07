@@ -1,4 +1,22 @@
-$HEADER$namespace $NAMESPACE$
+using System.Runtime.Serialization;
+
+namespace CustomerManagement.API.Dtos
 {
-  public class $CLASS$ {$END$}
+    [DataContract]
+    public class ErrorDto
+    {
+        public ErrorDto()
+        {
+            
+        }
+
+        public ErrorDto(string message)
+        {
+            this.Message = message;
+
+        }
+        
+        [DataMember(EmitDefaultValue = false)]
+        public string Message { get; set; }
+    }
 }

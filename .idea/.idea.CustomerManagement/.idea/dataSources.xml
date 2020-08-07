@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="customerdb@customer-management-postgres.c0d8nzigxluc.eu-west-2.rds.amazonaws.com" uuid="830bb377-55b6-44a5-b33b-e0ddfb3572d9">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://customer-management-postgres.c0d8nzigxluc.eu-west-2.rds.amazonaws.com:5432/customerdb</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="customerdb@customer-management-db.c0d8nzigxluc.eu-west-2.rds.amazonaws.com" uuid="9f5f45f4-9bf4-49df-a68e-002c6e578d11">
+      <driver-ref>sqlserver.ms</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.microsoft.sqlserver.jdbc.SQLServerDriver</jdbc-driver>
+      <jdbc-url>jdbc:sqlserver://customer-management-db.c0d8nzigxluc.eu-west-2.rds.amazonaws.com;database=customerdb</jdbc-url>
+    </data-source>
+  </component>
+</project>
